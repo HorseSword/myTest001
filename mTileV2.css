@@ -1,0 +1,37 @@
+	/* 本文件用于mTile的外观设计 */
+	.mTileBack{
+		/* background:#FFFFFF; */
+		background-image:url("white80.png");
+		border-radius:10px 10px 10px 10px;
+		overflow-y: auto;
+		float:left;  
+		position:absolute;  
+		opacity:1;
+		box-shadow:0 12px 8px -9px #555;
+	}
+	.mTileHead{
+		font-size:20px;
+		font-family:微软雅黑;
+		font-weight:bold;
+		color:#3b7495;
+		height:28px;
+		width:96%;
+		left:2%;
+		top:8px;
+		position:absolute;
+		text-align:center;
+		cursor:default;
+	}
+	.mTileBody{
+		width:auto;
+		font-family:微软雅黑;
+		height:auto;
+		left:5px;
+		right:5px;
+		top:40px;
+		bottom:10px;
+		position:absolute;
+		overflow-y: auto;
+		padding:10px;
+		opacity:1;
+	}

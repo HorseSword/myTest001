@@ -1,0 +1,52 @@
+﻿<style>
+	/* 本文件用于mTile的外观设计 */
+	.mTileDark{
+		background-color:rgba(0,0,0,0.6);
+		border-radius:10px 10px 10px 10px;
+		overflow-y: auto;
+		float:left;  
+		position:absolute;  
+		opacity:1;
+		box-shadow:0 12px 8px -9px #555;
+		min-height:200px;
+		min-width:200px;
+	}
+	.mTileDark mTileTitle{
+		font-size:20px;
+		font-family:微软雅黑;
+		font-weight:bold;
+		color:#3b7495;
+		height:28px;
+		width:96%;
+		left:2%;
+		top:16px;
+		position:absolute;
+		text-align:center;
+		cursor:default;
+	}
+	.mTileDark mTileBody {
+		width:auto;
+		font-family:微软雅黑;
+		color:white;
+		height:auto;
+		left:5px;
+		right:5px;
+		top:40px;
+		bottom:10px;
+		position:absolute;
+		overflow-y: auto;
+		padding:10px;
+		opacity:1;
+	}
+
+	</style>
+	<body style="background-color:#ABABAB">
+	<div class="mTileDark">
+		<mTileTitle>第一句话</mTileTitle>
+		<mTileBody>
+			<div>HHH</div>
+			<p>这是内容</p>
+			<p>这也是内容</p>
+		</mTileBody>
+	</div>
+	</body>

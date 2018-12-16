@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            div{
+                /*设置一个宽300px,高300px的蓝色盒子*/
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                /*变化时间为3s*/
+                transition: 0.5s;
+				transition-timing-function: ease-out;
+            }
+            div:hover{
+                /*当鼠标触碰到这个盒子的时候,盒子在3s的时间里,发生"变宽至400px，变低至100px，绕y轴旋转45度的现象"*/
+                width: 100px;
+                height: 100px;
+				transition: 0.2s;
+                transform: rotate(90deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </body>
+</html>
